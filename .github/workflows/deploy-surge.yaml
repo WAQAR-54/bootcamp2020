@@ -30,7 +30,7 @@ jobs:
     - name: Install Surge 
       run: npm install -g surge 
     - name: Run Surge
-      run: surge ./ za001.surge.sh --token ${{secrets.surge-token}}
+      run: surge ./ z001.surge.sh --token ${{secrets.ab}}
       
     #  run: echo Hello, world!
 
